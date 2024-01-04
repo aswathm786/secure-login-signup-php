@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.signup-box {
+    width: 350px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    position: relative;
+}
+
+.input-group-append {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+#password.invalid {
+    border: 2px solid red;
+}
+
+#password.valid {
+    border: 2px solid green;
+}
+
+.valid-feedback {
+    display: none;
+    color: green;
+}
+
+.invalid-feedback {
+    display: none;
+    color: red;
+}
+
+.password-condition {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #333;
+}
